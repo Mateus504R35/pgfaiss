@@ -1,0 +1,28 @@
+# PostgreSQL / PGXS build artifacts
+*.o
+*.so
+*.bc
+*.a
+*.dylib
+
+# Temporary/editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local build directories
+build/
+cmake-build-*/
+
+# Faiss submodule build artifacts
+third_party/faiss/build/
+
+# Generated Faiss index files
+*.faiss
+*.faiss.tmp
+
+# OS files
+.DS_Store
+Thumbs.db

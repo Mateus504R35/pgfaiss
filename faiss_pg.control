@@ -1,0 +1,5 @@
+# faiss_pg.control
+comment = 'Faiss integration for vector search'
+default_version = '0.2'
+module_pathname = '$libdir/faiss_pg'
+relocatable = true
