@@ -59,7 +59,7 @@ Faiss is included as a Git submodule under `third_party/faiss` and should be pin
 Clone this repository together with the submodule:
 
 ```bash
-git clone --recurse-submodules https://github.com/Mateus504R35/pgfaiss
+git clone --recurse-submodules https://github.com/Mateus504R35/pgfaiss.git
 cd pgfaiss
 ```
 
