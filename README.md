@@ -525,7 +525,7 @@ For benchmark reproducibility, record at least:
 
 **Author:** Mateus Eurípedes Malaquias Soares  
 **Advisor:** Prof. Humberto Luiz Razente  
-**Institution:** Federal University of Uberlândia (UFU) — Faculty of Computing (FACOM)
+**Institution:** Universidade Federal de Uberlândia (UFU) — Faculdade de Computação (FACOM)
 
 This project was developed in the context of an undergraduate scientific research project on indexing structures and approximate nearest-neighbor search over high-dimensional data.
 
