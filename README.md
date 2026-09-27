@@ -48,6 +48,7 @@ Instead, the extension:
 ├── faiss_pg--0.2.sql       # SQL objects exposed by extension version 0.2
 ├── faiss_pg.control        # PostgreSQL extension metadata
 ├── Makefile                # PGXS build file
+├── LICENSE                 # MIT License for pgfaiss
 ├── .gitignore
 └── README.md
 ```
@@ -519,3 +520,19 @@ For benchmark reproducibility, record at least:
 - index build parameters;
 - search-time parameters;
 - hardware configuration.
+
+## Authors and acknowledgments
+
+**Author:** Mateus Eurípedes Malaquias Soares  
+**Advisor:** Prof. Humberto Luiz Razente  
+**Institution:** Federal University of Uberlândia (UFU) — Faculty of Computing (FACOM)
+
+This project was developed in the context of an undergraduate scientific research project on indexing structures and approximate nearest-neighbor search over high-dimensional data.
+
+`pgfaiss` integrates PostgreSQL with [Faiss](https://github.com/facebookresearch/faiss). Faiss is maintained by Meta's Fundamental AI Research group and is included in this repository only as a Git submodule, retaining its own license and copyright notices.
+
+## License
+
+The `pgfaiss` source code in this repository is distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+
+The Faiss source code under `third_party/faiss` is a separate project and remains subject to the license distributed with the Faiss submodule.
